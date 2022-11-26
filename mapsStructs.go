@@ -57,6 +57,10 @@ func main() {
 	_, ok = statePops["TO"]
 	fmt.Println(ok)
 
+	if q, ok := statePops["GJ"]; ok {
+		fmt.Println(q)
+	}
+
 	aza, ok := statePops["TN"]
 	fmt.Println(aza, ok)
 
