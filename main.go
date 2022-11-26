@@ -108,4 +108,7 @@ func main() {
 	//b2 := 65
 	fmt.Printf("%v, %T\n", m1+b2, m1+b2)
 
+	const m3 float64 = 34
+	fmt.Printf("%v\n", m3)
+
 }
